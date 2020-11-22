@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<section id="cover" class="min-vh-100">
+    <div id="cover-caption">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto form p-4">
+                    <h1 class="display-4 py-2">Loan Checker</h1>
+                    <fieldset>
+                        <form>
+                            <div class="form-group">
+                                <label for="salary">Salary</label>
+                                <input name="salary" type="number" id="salary" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="creditScore">Credit Score</label>
+                                <input name="creditScore" id="creditScore" type="number" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label  for="months">Months Employed</label>
+                                <input name="months" id="months" type="number" class="form-control">
+                            </div>
+                            <div>
+                                <button id="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </form>
+                    </fieldset>
+                    <div id="loanOutput">
+                        <span id="output"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
